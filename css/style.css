@@ -19,7 +19,7 @@ header{
 }
 
 .box-esercizio{
-    height: 150px;
+    min-height: 20px;
     background-color: rgb(223, 223, 223);
     padding: 20px;
 }
@@ -28,9 +28,72 @@ header{
     height: 110px;
     width: 110px;
     border: 1px solid red;
+    background-color: red;
+}
+
+#esercizio1{
+    background-color: rgb(223, 223, 223);
 }
 
 #esercizio1:hover{
     background-color: red;
     transition: all 2s ease 0s;
+}
+
+#esercizio2:active{
+    width: 100%;
+    transition: 3s;
+}
+
+#esercizio3:hover{
+    border-radius: 50%;
+    transition: 1s;
+}
+
+#esercizio4:hover{
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+#esercizio5{
+    height: 50px;
+    width: 50px;
+}
+
+#esercizio5:hover{
+    height: 110px;
+    width: 110px;
+    transition: 1s ease;
+}
+
+#esercizio5:active{
+    height: 50px;
+    width: 50px;
+    transition: 1s ease;
+}
+
+#esercizio6 > img:hover{
+    filter: grayscale(100%);
+}
+
+#esercizio7 > img:hover{
+    filter: sepia(50%) saturate(50%);
+    transition: 2s;
+}
+
+#esercizio8 > img:hover{
+    filter: sepia(50%) saturate(50%);
+    border-radius: 50px;
+    transition: 2s;
+}
+
+#esercizio9 > img{
+    width: 360px;
+}
+
+#esercizio9 > img:hover{
+    width: 678px;
+    filter: sepia(50%) saturate(50%);
+    border-radius: 50px;
+    transition: 1s;
 }
